@@ -1,0 +1,55 @@
+{
+  "name": "kolora",
+  "version": "1.0.0",
+  "description": "A lightweight, dependency-free library for color conversion between various formats such as RGBA, HEX, HSL, HSV, and CMYK.",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.d.ts.map",
+    "index.ts",
+    "api/*.js",
+    "api/*.d.ts",
+    "api/*.d.ts.map",
+    "src/index.ts",
+    "src/api/*.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --check src",
+    "test": "node test/index.js"
+  },
+  "author": "Dima Barabash (dbarabashd@gmail.com)",
+  "keywords": [
+    "colors",
+    "color-conversion",
+    "rgba",
+    "hex",
+    "hsl",
+    "cmyk",
+    "color-palette",
+    "color-picker",
+    "gradients",
+    "color-manipulation",
+    "color-theory",
+    "color-accessibility",
+    "color-harmony",
+    "color-correction",
+    "web-design",
+    "graphic-design",
+    "css",
+    "ui-design",
+    "themeing",
+    "color-schemes"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "micro-should": "^0.4.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}

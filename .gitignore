@@ -1,0 +1,11 @@
+node_modules
+/build/
+/lib
+/index.js
+/index.d.ts
+/api/
+*.d.ts.map
+*.d.ts
+*.js
+/_type_test.js
+/_type_test.d.ts
