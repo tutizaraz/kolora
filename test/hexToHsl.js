@@ -4,6 +4,6 @@ import assert from 'assert';
 
 should('convert HEX to HSL correctly', () => {
   const hex = '#ff6464';
-  const expectedHsl = [0, 100, 70];
+  const expectedHsl = { h: 0, s: 100, l: 70 };
   assert.deepStrictEqual(hexToHsl(hex), expectedHsl);
 });
