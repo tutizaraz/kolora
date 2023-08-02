@@ -28,9 +28,9 @@ export function hexToHsl(hex: string): HSL {
     h /= 6;
   }
 
-  h = Math.round(h * 360);
-  s = Math.round(s * 100);
-  l = Math.round(l * 100);
-
-  return [h, s, l];
+  return {
+    h: Math.round(h * 360),
+    s: Math.round(s * 100),
+    l: Math.round(l * 100),
+  };
 }
