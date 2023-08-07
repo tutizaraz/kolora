@@ -18,7 +18,7 @@
     "lint": "prettier --check src",
     "test": "node test/index.js"
   },
-  "author": "Dima Barabash (dbarabashd@gmail.com)",
+  "author": "Dima Barabash (dbarabashdev@gmail.com)",
   "keywords": [
     "colors",
     "color-conversion",
