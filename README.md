@@ -2,6 +2,12 @@
 
 Kolora is a lightweight, dependency-free library for color conversion between various formats such as RGBA, HEX, HSL. Ideal for developers, designers, and color enthusiasts looking to effortlessly translate color codes across different color spaces.
 
+### Npm install
+
+```js
+npm i kolora
+```
+
 ### Usage
 
 ```js
